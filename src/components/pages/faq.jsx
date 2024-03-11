@@ -63,7 +63,7 @@ const [isSubmitted, setIsSubmitted] = useState(false);/*Eat envoir formulaire do
               <Link to="/partenaires" id="clickhere" target="_blank"> Cliquez ici.</Link>
             </p>
             <h3>2. Existe-t-il des options d'hébergement alternatives à proximité du festival ?</h3>
-            <p className='question2'>Oui, il existe plusieurs options d'hébergement alternatives à proximité du site du festival, y compris des hôtels, des auberges de jeunesse et des locations de vacances. Nous recommandons de réserver votre hébergement à l'avance, car les disponibilités peuvent être limitées pendant le festival. Notre partenaire abritel pourra vous donner toutes les informations requises à vos demandes <Link to="/partenaires" id="clickhere" target="_blank"> Cliquez ici.</Link></p>
+            <p className='question2'>Oui, il existe plusieurs options d'hébergement alternatives à proximité du site du festival, y compris des hôtels, des auberges de jeunesse et des locations de vacances. Nous recommandons de réserver votre hébergement à l'avance, car les disponibilités peuvent être limitées pendant le festival. Notre partenaire Trivago pourra vous donner toutes les informations requises à vos demandes <Link to="/partenaires" id="clickhere" target="_blank"> Cliquez ici.</Link></p>
           </div>
 
           <div class="box3">
@@ -72,7 +72,7 @@ const [isSubmitted, setIsSubmitted] = useState(false);/*Eat envoir formulaire do
             <p className='question1'>
               Le programme complet du festival, y compris les horaires de chaque artiste et les activités prévues, sont disponibles sur notre site web dans la rubrique "programmations". Assurez-vous de consulter régulièrement notre site pour les mises à jour et les annonces importantes.
               <Link to="/programmations" id="clickhere" target="_blank"> Cliquez ici.</Link>
-              Si vous souhaitez plus d'informations sur leurs prochaines tournées, vous pouvez consulter leurs prochaines dates dans notre sous-rubrique "Tournées 2025" ou<Link to="/artistes" id="clickhere" target="_blank"> Cliquez ici.</Link>
+              Si vous souhaitez plus d'informations sur leurs prochaines tournées, vous pouvez consulter leurs prochaines dates dans notre sous-rubrique "artistes" ou<Link to="/artistes" id="clickhere" target="_blank"> Cliquez ici.</Link>
             </p>
             <h3>2. Qui sont les artistes confirmés pour cette année ?</h3>
             <p className='question2'>Vous pouvez consulter notre rubrique "programmations" pour retrouver tous les artistes du festival <Link to="/programmations" id="clickhere" target="_blank"> Cliquez ici.</Link></p>
