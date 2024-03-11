@@ -1,0 +1,154 @@
+/* Page sous section dropdown Informations */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: none;
+  background-color: rgb(0, 0, 0);
+}
+
+.title {
+  color: black;
+}
+
+
+.artistes-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.artistecotainerchild1{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.titreinfos {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background-color: rgb(0, 0, 0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  padding: 30px;
+
+}
+
+.artistes-grid1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5%;
+  justify-content: center;
+  width: 250vh;
+}
+
+.boxlargeinfos {
+  width: 50%; /* Chaque boîte occupe 100% de la largeur du conteneur */
+  background-color: rgba(5, 5, 5, 0.8);
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: solid 2px cadetblue;
+  color: white;
+  margin-top: 10px;
+  padding: 1vh;
+  pointer-events: none;
+  
+
+}
+
+.infosparaph {
+  background-color: white;
+}
+
+input{
+
+  width: 30vh;
+}
+
+.title {
+  color: white;
+  font-size: 45px;
+  margin: auto;
+}
+figure img{
+
+  width: 250px;
+}
+
+strong {
+  color: white;
+  font-size: large;
+}
+
+p{
+
+  font-size: 15px;
+}
+
+.wp-block-columns.is-layout-flex,
+.wp-container-core-columns-layout-1.wp-block-columns-is-layout-flex a:hover {
+  transition: all 0.4s ease-out;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+
+/* Style pour la mise en page responsive */
+@media screen and (max-width: 1024px) {
+/* largeur de l'écran est inférieure ou égale à 1024px */
+
+  section h2,
+  section p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  .artistes-grid1 {
+    width: 100%;
+    margin: 0;
+    
+
+  }
+
+  .titreinfos {
+    margin-top: 50%;
+    border: none;
+  }
+
+  .boxlargeinfos {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 5px;
+    border: solid 2px cadetblue;
+
+  }
+
+  .artistes-container1 {
+    padding: 5%;
+  
+  }
+
+  .artistecotainerchild1{
+
+    margin-top: -15%;
+  
+  }
+
+    
+  }
+

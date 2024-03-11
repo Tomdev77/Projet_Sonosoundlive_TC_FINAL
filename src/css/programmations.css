@@ -1,0 +1,269 @@
+/* Page section programmations */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body {
+
+    background-image: none;
+    background-color: rgb(0, 0, 0);
+  }
+  
+
+
+
+.presentationtitres {
+  margin-top: 10%;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;  
+  width: 300px;
+  text-align: center;
+  height: 400px;
+  padding: 5vh;
+
+}
+
+
+.progtitre {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+  .boxlarge {
+    border-radius: 5px;
+    border: solid 2px rgb(255, 255, 255);
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    
+  }
+  
+
+  .artistes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+#artiste{
+
+  font-size: 20px;
+  background-color: rgba(3, 86, 107);
+  margin-top: 50px;
+  height: 80px;
+  padding: 10%;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-top: 5%;
+  width: 450px;
+  height: 500px;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 0.5s, transform 0.3s;
+  border-radius: 1px solid white; 
+  padding: 5%;
+}
+
+section:hover {
+  opacity: 1;
+  transform: scale(0.9); 
+  background-color: #030303;
+  color: white;
+}
+
+section img {
+  width: 90%;
+  border-radius: 25px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+section h2{
+  text-transform: capitalize;
+  color: cadetblue;
+  font-weight:bold;
+}
+
+section h2,
+section p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.inputartiste,
+.inputname{
+
+  height: 20px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.scene-buttons{
+
+  display: flex;
+  flex-direction:column;
+
+
+}
+
+.scene-buttons span{
+
+  height: 55px;
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.scene-buttons span:hover{
+
+
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  margin: 5px;
+}
+
+.reset{
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+
+}
+
+#filtre{
+
+  color: white;
+  font-size: 25px;
+  margin: 8px;
+}
+
+.filterartisteinput{
+
+  padding:25px;
+  background-color:black;
+  color: white;
+  border-radius: 5px;
+  border: solid 1px white;
+
+}
+
+.lieubuttoncontainer{
+
+  margin-left: 10%;
+  
+
+}
+
+input{
+
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+input::placeholder{
+
+  color: white;
+  font-size: medium;
+}
+
+.lieu{
+  background-color: rgb(0, 0, 0) ;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border: solid 1px cadetblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 15px;;
+  
+}
+
+.lieu:hover{
+
+  background-color: rgb(255, 255, 255) ;
+  color: rgb(0, 0, 0);
+  }
+
+.findprog{
+
+  color:white;
+  font-size: 35px;
+}
+
+.artistefindprog{
+
+  color:white;
+  font-size: 35px;
+}
+
+  /* Style pour la mise en page responsive */
+@media screen and (max-width: 768px) {
+    /* largeur de l'écran est inférieure ou égale à 1024px */
+
+  .progtitre {
+    margin-top: 45%; 
+    width: 100%;
+    border: none;
+  }
+
+
+  .lieu{
+
+    text-align: center;
+}
+
+
+.boxlarge {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: solid 2px rgb(255, 255, 255);
+  width: 100%;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.boxlarge img{
+
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+}
