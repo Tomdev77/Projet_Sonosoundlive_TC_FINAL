@@ -1,0 +1,104 @@
+/* Composant Map */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap to wrap flex items */
+  justify-content: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  margin-top: 2%;
+
+}
+
+
+.leaflet-container {
+  height: 50vh; 
+  width: 100%; 
+  margin: 1% auto;
+  justify-content: center;
+  z-index: 1;
+
+
+}
+
+
+
+
+/* Map */
+.titlemap {
+  margin: 1% auto; 
+  width: 100%; 
+  font-size: 1.5rem; 
+  background-color: rgb(0, 0, 0);
+  color: cadetblue;
+  padding: 15px;
+  text-align: center;
+  z-index: 5;
+
+}
+
+.leaflet-control-attribution {
+  visibility: hidden;
+}
+
+.cluster-icon {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin-left: 5%;
+  background-color: rgb(0, 0, 0);
+  border: solid 1px cadetblue;
+  padding: 10px;
+}
+
+
+
+.locationbuttonMap {
+  position: relative; 
+  z-index: 1000; 
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  cursor: pointer;
+}
+/* Style pour la mise en page responsive */
+@media screen and (max-width: 1024px) {
+/* largeur de l'écran est inférieure ou égale à 1024px */
+
+  .leaflet-container {
+    height: 40vh; 
+    width: 100vh;
+    z-index: 0;
+  }
+
+  .titlemap {
+    font-size: 1rem;
+  }
+
+  .locationbutton {
+    font-size: 0.7rem; 
+    margin-left: 50%; 
+  }
+
+  .scroll-to-top{
+    z-index: 110!important;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+  
+
+}

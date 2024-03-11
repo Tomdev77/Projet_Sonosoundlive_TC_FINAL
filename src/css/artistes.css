@@ -1,0 +1,136 @@
+/* Page sous section dropdown2 Artistes */
+
+
+.artistesbio-container{
+  display: flex;
+  flex-direction: column; /* Changer la direction en ligne */
+  align-items: center; /* Centrer le contenu verticalement */
+  justify-content: center; /* Centrer le contenu horizontalement */
+
+}
+
+
+.artiste-gridbio {
+  display: flex;
+  flex-direction: row; /* Changer la direction en ligne */
+  align-items: center; /* Centrer le contenu verticalement */
+  justify-content: center; /* Centrer le contenu horizontalement */
+  flex-wrap: wrap;
+}
+
+body{
+
+  background-image: none;
+  background-color: rgb(5, 5, 5);
+}
+
+.boxlarge1 {
+  width: calc (27%); 
+  height: 950px;
+  border-radius: 5px;
+  border: solid 2px rgb(255, 255, 255);
+  cursor: none !important;
+}
+
+
+section:hover {
+  opacity: 1;
+  transform: scale(0.9); 
+  background-color: #030303;
+  color: white;
+  cursor:  auto !important;
+
+}
+
+section img {
+  width: 90%;
+  border-radius: 25px;
+  height: 200px;
+  margin-top: 15px;
+  cursor:  auto !important;
+
+}
+
+section h2{
+  text-transform: capitalize;
+  color: cadetblue;
+  font-weight:bold;
+}
+
+section h2,
+section p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 15px;
+  cursor: auto;
+
+}
+
+.pdescription{
+
+  color: white;
+}
+
+.resetconcerts{
+
+  color: rgb(39, 26, 156);
+  padding: 10px;
+  height: 52px;
+  color: #000000;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.datefindconcerts{
+
+  color:white;
+  font-size: 35px;
+}
+
+
+ /* Style pour la mise en page responsive */
+
+@media screen and (max-width: 768px) {
+/* largeur de l'écran est inférieure ou égale à 1024px */
+
+
+
+.progtitre {
+ 
+  margin-top: 20%;
+  padding: 10px;
+
+
+}
+
+.boxlarge1 {
+  border: solid 2px rgb(255, 255, 255);
+  width: 100%;
+  height: 125vh;
+  margin: 0;
+  padding: 0;
+  cursor: none!important;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+section{
+
+width:90%;
+cursor: none!important;
+
+
+
+}
+
+
+}
+
+
+
+
+

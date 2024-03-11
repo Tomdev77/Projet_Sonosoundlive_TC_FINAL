@@ -1,0 +1,310 @@
+/* Page section accueil */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.billet,
+.actu, .transport {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 100%; 
+  margin: 10px 0; 
+  text-align: center; 
+  
+}
+
+.billeteriecontainer,
+.actucontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  background-color: rgba(10, 10, 10, 0.5);
+  width: 100%;
+  max-width: 65vh; 
+  z-index: 1!important;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+
+
+}
+
+#purchase{
+
+  font-size: large;
+}
+
+
+.store, .ratplogo{
+
+  width: 200px;
+
+}
+
+#purchase a:hover{
+
+  color: rgb(192, 99, 23);
+  font-weight:bolder;
+  
+}
+
+#butthere:hover{
+  color: rgb(192, 99, 23);
+  font-weight:bolder;
+
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: baseline;
+  padding: 15px;
+}
+
+.news-list2{
+
+  padding: 15px;
+  height: 32vh;
+  width: 35vh;
+}
+
+.news-list p{
+
+  color: rgb(255, 255, 255);
+}
+
+#idfh2{
+
+color: white;
+}
+.news-list2 p{
+
+  color: white;
+  cursor: pointer!important;
+}
+
+@keyframes scroll {
+  0% { transform: translateY(0); } /* Début de l'animation  */
+  100% { transform: translateY(calc(-100% - 20px)); } /* Fin de l'animation  */
+}
+
+.news-list li {
+  margin-bottom: 20px; 
+  animation: scroll 25s linear infinite; 
+}
+
+.compteurfestival{
+
+color: white;
+font-size: 55px;
+margin: 5px;
+}
+
+#titlecompteurfestival{
+
+  font-size: 5vh;
+  margin: auto;
+}
+
+#pcompteurfestival{
+
+  font-size: 2vh;
+
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h5{
+  color: cadetblue;
+  font-size: 25px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translatey(0%);
+  }
+  100% {
+    transform: translatey(100%);
+  }
+}
+
+.containerpartner{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 63%;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 1%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+
+}
+
+.partner {
+  font-size: 35px;
+  color: cadetblue;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 15px;
+
+}
+
+.containerlogo{
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 55vh;
+  color: aliceblue;
+  align-items: center;
+
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.partneranimatedlink {
+  display: inline-block;
+  font-size: large;
+}
+
+.partneranimatedlink:hover {
+  animation: bounce 0.5s;
+  color: cadetblue;
+}
+
+.store{
+
+  background-color: cadetblue;
+  padding: 15px;
+
+
+}
+
+
+/* Style pour la mise en page responsive */
+@media screen and (max-width: 1024px) {
+/* largeur de l'écran est inférieure ou égale à 1024px */
+
+
+  .container,
+  .container2,
+  .billeteriecontainer,
+  .titlebillerteriechilcontainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto; 
+    padding: 0 10px;
+    width: 100%;
+    height: 25%;
+    margin-top: 10%;
+
+  }
+
+  
+
+  .store, .ratplogo{
+
+    width: 150px;
+  
+  }
+  .news-list li {
+    margin-bottom: 25px; 
+    animation: scroll 25s linear infinite; 
+  }
+
+  
+
+.actucontainer{
+
+  border: none;
+  margin-top: 25%;
+}
+
+.containerpartner{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+.containerlogo{
+ 
+  height: 55vh;
+  width: 100%;
+  margin: 15px;
+
+}
+
+
+.epsi, .deliveroo, .ratp, .vingtminutes{
+  width: 12vh;
+  
+
+}
+
+.region{
+
+  width: 100%;
+ 
+
+}
+
+
+
+}
+

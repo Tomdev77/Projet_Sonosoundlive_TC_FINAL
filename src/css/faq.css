@@ -1,0 +1,189 @@
+/* Page ssection FAQ */
+
+/* Contenu Information */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.containerinfos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.childcontainer {
+  flex-direction: row;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 100%; 
+  background-color: rgba(5, 5, 5, 0.8);
+  height: auto;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: solid 1px white;
+  padding: 3vh;
+  color: white;
+  margin-top: 10px;
+}
+
+.question1,
+.question2,
+.question3 {
+  padding: 15px;
+}
+
+#logements,
+#billeterie,
+#progartistes {
+  color: cadetblue;
+  font-weight: bold;
+  background-color: white;
+  font-size: 3vh;
+  text-align: center;
+  padding: 1vh;
+}
+
+#titlefaq {
+  font-size: 5vh;
+  text-align: center;
+  color: cadetblue;
+  padding: 5vh;
+}
+
+#soustitlefaq {
+  font-size: 3vh;
+  text-align: center;
+  color: #ffffff;
+  padding: 5vh;
+
+}
+
+
+h2 {
+  font-size: 2.5vh;
+}
+
+h4,
+h3 {
+  color: white;
+  font-size: 2vh;
+}
+
+#clickhere {
+  padding: 1px;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+label{
+
+  color: cadetblue;
+}
+
+
+#clickhere:hover {
+  color: rgb(0, 217, 255);
+}
+
+/* formulaire */
+
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  max-width: 60%;
+  background-color: rgb(5, 5, 5);
+  border-radius: 5px;
+  border: solid 2px rgb(255, 255, 255);
+  padding: 5vh;
+
+}
+
+#titleform {
+  color: cadetblue;
+  font-weight: bold;
+  background-color: white;
+  font-size: 3vh;
+  text-align: center;
+  padding: 2vh;
+}
+
+.submit{
+
+  margin: 5vh;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#message{
+
+  width: calc(35%);
+  padding: 25px;
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+}
+
+
+#oksubmit{
+
+  color: cadetblue;
+  font-size: large;
+  background-color: #000000;
+  padding: 15px;
+  font-weight: bold;
+  
+}
+
+
+/* Style pour la mise en page responsive */
+@media (max-width: 1024px) {
+/* largeur de l'écran est inférieure ou égale à 1024px */
+
+  .childcontainer {
+    flex-direction: row;
+    margin-top: 35%;
+    width: 100%;
+  }
+
+
+
+  .formcontainer {
+    max-width: 100%;
+    padding: auto;
+    margin: auto;
+    margin-top: 10px;
+
+
+  }
+
+  #message{
+    display: flex;
+    width: calc(55%);
+    padding: 25px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+  }
+  
+
+}
