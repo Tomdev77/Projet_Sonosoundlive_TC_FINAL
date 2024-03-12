@@ -232,25 +232,9 @@ h5{
 
 
 /* Style pour la mise en page responsive */
-@media screen and (max-width: 1024px) {
-/* largeur de l'écran est inférieure ou égale à 1024px */
+@media screen and (max-width: 767px) {
+/* largeur de l'écran est inférieure ou égale à 767px */ mobile & tablette
 
-
-  .container,
-  .container2,
-  .billeteriecontainer,
-  .titlebillerteriechilcontainer {
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    margin: 0 auto; 
-    padding: 0 10px;
-    width: 100%;
-    height: 25%;
-    margin-top: 10%;
-
-  }
 
   #titlecompteurfestival{
 
@@ -276,19 +260,34 @@ h5{
   margin-top: 25%;
 }
 
-.containerpartner, .billeteriecontainer,
+.containerpartner,
 .actucontainer{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   box-shadow: none;
+  margin-top: 55px;
+  padding: 35px;
+  justify-content: center;
   
 }
 
+
+.billeteriecontainer{
+
+  
+  box-shadow: none;
+  justify-content: center;
+
+}
+
+
+
+
 #welcome2{
   color: cadetblue;
-  font-size: 25px;
+  font-size: 35px;
 
 
 }
@@ -304,8 +303,9 @@ h5{
 
 .news-list2{
 
-  height: 32vh;
+  height: 52vh;
   width: auto;
+  padding: 0;
 }
 
 
@@ -323,7 +323,22 @@ h5{
 }
 
 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) { largeur comprise entre 767 et 1024px / tablette 
+  /* Ajoutez vos styles CSS ici */
+
+  .news-list2{
+
+    height: 32vh;
+   
+  }
 
 
+.actucontainer{
+ 
+  border: none;
+  margin-top: 15%;
+  box-shadow: none;
 }
 
+}
