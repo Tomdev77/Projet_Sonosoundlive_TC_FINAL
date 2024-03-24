@@ -1,5 +1,4 @@
 /* Page section programmations */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 
 body {
 
@@ -77,7 +76,6 @@ section {
   cursor: pointer;
   transition: opacity 0.5s, transform 0.3s;
   border-radius: 1px solid white; 
-  padding: 5%;
 }
 
 section:hover {
@@ -261,7 +259,7 @@ input::placeholder{
 .boxlarge img{
 
   width: 100%;
-  margin-left: auto;
+  margin-left: 5%;
   margin-right:auto;
 }
 
