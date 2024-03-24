@@ -24,7 +24,7 @@ const Artistes = () => {
             
             const basicAuth = btoa(`${username}:${password}`);
             const proxyUrl = 'https://corsproxy.io/?';
-            const apiUrl = 'https://sonosound.online/wp-json/wp/v2/posts?per_page=30';
+            const apiUrl = 'https://sonosound.online/wp-json/wp/v2/posts?per_page=31';
             
             
             const response = await axios.get(`${proxyUrl}${encodeURIComponent(apiUrl)}`, {
