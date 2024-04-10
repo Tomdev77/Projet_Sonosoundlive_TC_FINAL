@@ -161,11 +161,12 @@ const filteredArtistes = artistes.filter(a => { // Utilisation de la méthode fi
         Si aucuneDateTrouvee ou aucunArtisteTrouve etc est vrai, aucun filtrage n'est appliqué.
         */}
         {!nodatefound && !noartistefound && !nostagefound && filteredArtistes.map((a, index) => (// map d ficher json pour récupérer les donnes du fichier json wordpress pour chaque id filtré (id & titré & contenu)
-         <a key={a.id} href='/artistes' className="boxlarge">
+         <a key={a.id} className="boxlarge">
          <section>
            <h2>{a.title.rendered}</h2>
            <div dangerouslySetInnerHTML={{ __html: a.content.rendered }} />
          </section>
+       <a href="/artistes"><p id='sourceartiste'>En savoir plus sur l'artiste</p></a>
        </a>
 
         ))}
