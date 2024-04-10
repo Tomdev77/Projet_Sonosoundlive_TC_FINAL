@@ -55,14 +55,13 @@ section img {
 
 section h2{
   text-transform: capitalize;
-  color: cadetblue;
+  color: white;
   font-weight:bold;
 }
 
-section h2,
 section p {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: cadetblue;
   font-size: 15px;
   font-weight: bold;
   border-radius: 25px;
