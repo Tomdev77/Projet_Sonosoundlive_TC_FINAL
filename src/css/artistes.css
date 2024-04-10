@@ -30,7 +30,7 @@ body{
   height: 950px;
   border-radius: 5px;
   border: solid 2px rgb(255, 255, 255);
-  cursor: none !important;
+  cursor: auto !important;
 }
 
 
@@ -48,7 +48,8 @@ section img {
   border-radius: 25px;
   height: 200px;
   margin-top: 15px;
-  cursor:  text !important;
+  cursor: auto;
+
 
 }
 
@@ -126,7 +127,7 @@ section p {
   height: 125vh;
   margin: 0;
   padding-left: 5%;
-  cursor: none!important;
+  cursor: none !important;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
@@ -134,7 +135,7 @@ section p {
 section{
 
 width:90%;
-cursor: none!important;
+cursor: auto !important;
 
 
 
